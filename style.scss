@@ -1,0 +1,53 @@
+@mixin flex-row($gap: 0rem){
+    display: flex;
+    flex-direction: row;
+}
+@mixin image{
+    background-position:center;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+      font-family: "Pliant", sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+  
+    section.view1{
+        width: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1666532846263-27f1d57550c4?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+     @include image;
+     border-bottom-right-radius: 5%;
+     border-bottom-left-radius: 5%;
+
+        .center{
+            @include flex-row;
+            justify-content: space-between;
+            padding: 1rem;
+            align-items: center;
+
+            .left{
+
+                h1{
+                    font-size: 1rem;
+                }
+            }
+            .right{
+
+                p{
+                    
+                }
+            }
+
+        }
+
+    }
+}
