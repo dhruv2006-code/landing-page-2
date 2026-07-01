@@ -7,8 +7,8 @@
     background-size: cover;
 }
 @mixin border-radius{
-         border-bottom-right-radius: 5%;
-     border-bottom-left-radius: 5%;
+         border-bottom-right-radius: 10%;
+     border-bottom-left-radius: 10%;
 }
 @mixin flex-column{
       display: flex;
@@ -95,5 +95,23 @@ main{
                     }
                 }
             }
+    }
+    section.view3{
+        @include flex-row;
+        justify-content: space-between;
+        gap: 0.2rem;
+        padding:1rem;
+        
+        h4{
+            font-size: 0.5rem;
+        }
+        i{
+             font-size: 0.7rem;
+             color: white;
+           
+             span{
+                  font-family: "Pliant", sans-serif;;
+             }
+        }
     }
 }

@@ -23,8 +23,8 @@ main section.view1 {
   background-image: url(https://i.pinimg.com/736x/a6/11/c3/a611c33cad5b9ba7c97c0233dad056de.jpg);
   background-position: center;
   background-size: cover;
-  border-bottom-right-radius: 5%;
-  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
   padding: 1rem;
   align-content: center;
 }
@@ -76,4 +76,21 @@ main section.view2 .bottom .impact span {
 }
 main section.view2 .bottom .impact h3 {
   font-size: 0.5rem;
+}
+main section.view3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.2rem;
+  padding: 1rem;
+}
+main section.view3 h4 {
+  font-size: 0.5rem;
+}
+main section.view3 i {
+  font-size: 0.7rem;
+  color: white;
+}
+main section.view3 i span {
+  font-family: "Pliant", sans-serif;
 }/*# sourceMappingURL=style.css.map */
