@@ -25,10 +25,12 @@ html,body{
     height: 100%;
     width: 100%;
 }
+body{
+    background-color: black;
+}
 main{
     height: 100%;
     width: 100%;
-    overflow: hidden;
     background-color: black;
     section.view1{
         width: 100%;
@@ -112,5 +114,37 @@ main{
                   font-family: "Pliant", sans-serif;;
              }
         }
+    }
+    section.view4{
+        @include flex-column;
+        text-align: center;
+        padding: 3rem;
+        line-height: 1.5;
+        gap: 1rem;
+
+        p{
+            color: orange;
+        }
+        .btn{
+            color: white;
+            background-color: rgb(255, 145, 0);
+            padding:1rem 2rem;
+            border-radius: 4rem;
+            border: none;
+            margin: 1rem;
+
+            i{
+                color: orange;
+                background-color: white;
+                padding: 0.6rem;
+                border-radius: 50%;
+            }
+        }
+    }
+    section.view5{
+        @include flex-column;
+        width: 100%;
+       min-height: 250vh;
+
     }
 }
