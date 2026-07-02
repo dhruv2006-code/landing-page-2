@@ -144,7 +144,17 @@ main{
     section.view5{
         @include flex-column;
         width: 100%;
-       min-height: 250vh;
+       padding: 1rem;
+        gap: 1rem;
 
+        img:nth-child(1){
+            border-radius: 5%;
+        }
+          img:nth-child(2){
+            border-radius: 5%;
+        }
+          img:nth-child(3){
+            border-radius: 5%;
+        }
     }
 }
