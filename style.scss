@@ -181,24 +181,62 @@ main{
             padding: 1rem;
             @include flex-row;
             justify-content: space-between;
+            gap: 1rem;
 
             img{
                 width: 15vh;
                 border-radius: 1rem;
             }
             p{
-                width: 50%;
                 align-content: center;
                 text-transform: capitalize;
+                font-size: 1rem;
+                line-height: 1.5;
+                 span{
+                      font-size: 2rem;
+                        color: black;
+                      -webkit-text-stroke: 1px white;
+                      font-weight: 600;
+                      transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                }
+                 span:hover{
+                      text-shadow: 6px 6px 10px white;
+                    }
             }
         }
          .card2{
             // background-color: rgb(103, 30, 30);
             width: 100%;
             padding: 1rem;
-               @include flex-row;
+            @include flex-row;
             justify-content: space-between;
             flex-direction: row-reverse;
+
+            img{
+                width: 15vh;
+                border-radius: 1rem;
+            }
+            p{
+                align-content: center;
+                text-transform: capitalize;
+            
+                span{
+                      font-size: 2rem;
+                        color: black;
+                      -webkit-text-stroke: 1.3px white;
+                      font-weight: 600;
+                      transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                }
+                 span:hover{
+                      text-shadow: 6px 6px 10px white;
+                    }
+            }
+        }
+        .card3{
+              width: 100%;
+            padding: 1rem;
+            @include flex-row;
+            justify-content: space-between;
             gap: 1rem;
 
             img{
@@ -209,6 +247,16 @@ main{
                 align-content: center;
                 text-transform: capitalize;
             
+                span{
+                      font-size: 2rem;
+                        color: black;
+                      -webkit-text-stroke: 1.3px white;
+                      font-weight: 600;
+                      transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                }
+                 span:hover{
+                      text-shadow: 6px 6px 10px white;
+                    }
             }
         }
     }
@@ -253,6 +301,25 @@ body::-webkit-scrollbar-thumb{
                 object-fit: cover;
             }
             
+        }
+        section.view6{
+            .card,.card2{
+                img{
+                    width: 60vh;
+                }
+                p{
+                    width: 50%;
+                    line-height: 3;
+
+                    span{
+                        font-size: 2rem;
+                        color: black;
+                      -webkit-text-stroke: 1.3px white;
+                      font-weight: 600;
+                    };
+                   
+                }
+            }
         }
     }
 }
