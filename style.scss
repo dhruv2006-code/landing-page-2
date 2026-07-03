@@ -219,7 +219,7 @@ main{
             p{
                 align-content: center;
                 text-transform: capitalize;
-            
+                 line-height: 1.5;
                 span{
                       font-size: 2rem;
                         color: black;
@@ -246,6 +246,7 @@ main{
             p{
                 align-content: center;
                 text-transform: capitalize;
+                     line-height: 1.5;
             
                 span{
                       font-size: 2rem;
@@ -303,7 +304,7 @@ body::-webkit-scrollbar-thumb{
             
         }
         section.view6{
-            .card,.card2{
+            .card,.card2,.card3{
                 img{
                     width: 60vh;
                 }

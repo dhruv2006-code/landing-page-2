@@ -199,6 +199,7 @@ main section.view6 .card2 img {
 main section.view6 .card2 p {
   align-content: center;
   text-transform: capitalize;
+  line-height: 1.5;
 }
 main section.view6 .card2 p span {
   font-size: 2rem;
@@ -225,6 +226,7 @@ main section.view6 .card3 img {
 main section.view6 .card3 p {
   align-content: center;
   text-transform: capitalize;
+  line-height: 1.5;
 }
 main section.view6 .card3 p span {
   font-size: 2rem;
@@ -273,14 +275,14 @@ body::-webkit-scrollbar-thumb {
     -o-object-fit: cover;
        object-fit: cover;
   }
-  main section.view6 .card img, main section.view6 .card2 img {
+  main section.view6 .card img, main section.view6 .card2 img, main section.view6 .card3 img {
     width: 60vh;
   }
-  main section.view6 .card p, main section.view6 .card2 p {
+  main section.view6 .card p, main section.view6 .card2 p, main section.view6 .card3 p {
     width: 50%;
     line-height: 3;
   }
-  main section.view6 .card p span, main section.view6 .card2 p span {
+  main section.view6 .card p span, main section.view6 .card2 p span, main section.view6 .card3 p span {
     font-size: 2rem;
     color: black;
     -webkit-text-stroke: 1.3px white;
